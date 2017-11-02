@@ -1,0 +1,121 @@
+﻿@model IEnumerable<_5032HD.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Article list</h2>
+<p>
+
+@if (this.User.IsInRole("Admin") || this.User.IsInRole("Journalist"))
+{
+    <a href="/Articles/create" class="btn btn-primary" style="font-size:small">Create new &raquo;</a>
+}
+</p>
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<hr />
+<a id="searchLink" onclick="toggleTable();" class="btn btn-success btn-sm" class="btn btn-info" href="#">Advance Search</a>
+<hr />
+<table style="width: 60%; margin: 0 auto 2em auto;" border="0" cellspacing="0" cellpadding="3" id="search">
+    <thead>
+        <tr>
+            <th>Target</th>
+            <th> Search text:</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr id="filter_global">
+            <td>Global search</td>
+            <td align="center"><input class="global_filter" id="global_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col1" data-column="0">
+            <td>Title</td>
+            <td align="center"><input class="column_filter" id="col0_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col2" data-column="1">
+            <td>Date of publish</td>
+            <td align="center"><input class="column_filter" id="col1_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col3" data-column="2">
+            <td>Description</td>
+            <td align="center"><input class="column_filter" id="col2_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col4" data-column="3">
+            <td>Comments</td>
+            <td align="center"><input class="column_filter" id="col3_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col5" data-column="4">
+            <td>Topic</td>
+            <td align="center"><input class="column_filter" id="col4_filter" type="text"></td>
+        </tr>
+        <tr id="filter_col6" data-column="5">
+            <td>User Email</td>
+            <td align="center"><input class="column_filter" id="col5_filter" type="text"></td>
+        </tr>
+    </tbody>
+</table>
+<table class="display" id="data">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.datePub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.comments)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.topic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AspNetUser.Email)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.datePub)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.comments)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.topic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AspNetUser.Email)
+                </td>
+                <td>
+                    @if (this.User.IsInRole("Admin")) { 
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ArticleID } ,new { @class = "btn btn-default btn-xs" })} |
+                    @Html.ActionLink("Details", "Details", new { id = item.ArticleID }, new { @class = "btn btn-info btn-xs" }) |
+                    @if (this.User.IsInRole("Admin")) {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ArticleID }, new { @class = "btn btn-warning btn-xs" })}
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <img src="@Url.Action("Chart")" alt="chart" />
+</div>
+@Html.ActionLink("Download all Article List as PDF", "GeneratePdf")

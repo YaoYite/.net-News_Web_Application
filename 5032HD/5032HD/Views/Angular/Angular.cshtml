@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Angular";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts {
+
+    <link href="~/Content/CustomStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/AngularDemo.js"></script>
+}
+<div ng-app="demoModule" id="body">
+    <div ng-controller="demoCtrl">
+        <h2>AngularJS CRUD Operations with MVC5 WebAPI</h2>
+
+        <h3>List of Products</h3>
+
+        <table ng-cloak>
+            <thead>
+                <tr>
+                    <th style="display: none;">ID</th>
+                    <th>Title</th>
+                    <th>Date of publish</th>
+                    <th>Description</th>
+                    <th>Number of comments</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="items in articleData">
+                    <td hidden="hidden">{{items.ArticleID}}</td>
+                    <td>{{items.title}}</td>
+                    <td>{{items.datePub}}</td>
+                    <td>{{items.description}}</td>
+                    <td>{{items.comments}}</td>
+                    <td>{{items.topic}}</td>
+                    <td>
+                        <button ng-model="$scope.Article"
+                                ng-click="edit(articleData[$index])">
+                            Edit
+                        </button>
+                        <button ng-click="delete($index)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <div style="border-top: solid 2px #282828; width: 430px; height: 10px"> </div>
+
+        <div ng-show="Article.ArticleID != '' ">
+            <div>
+                <h2>Update Product</h2>
+            </div>
+            <div hidden="hidden">
+                <label for="ArticleID">Id</label>
+                <input type="text" data-ng-model="Article.ArticleID" />
+            </div>
+            <div>
+                <label for="title">Article Title</label>
+                <input type="text" data-ng-model="Article.title" />
+            </div>
+
+            <div>
+                <label for="datePub">Date of publish</label>
+                <input type="text" data-ng-model="Article.datePub" />
+            </div>
+
+            <div>
+                <label for="description">Description</label>
+                <input type="text" data-ng-model="Article.description" />
+            </div>
+
+            <div>
+                <label for="comments">Number of comments</label>
+                <input type="text" data-ng-model="Article.comments" />
+            </div>
+
+            <div>
+                <label for="topic">Topic</label>
+                <input type="text" data-ng-model="Article.topic" />
+            </div>
+            <br />
+            <div>
+                <button data-ng-click="update()">Update</button>
+                <button data-ng-click="cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div ng-hide="Article.ArticleID != '' ">
+            <div>
+                <h2>Add New Article</h2>
+            </div>
+            <div>
+                <label for="name">Title</label>
+                <input type="text" data-ng-model="Article.title" />
+            </div>
+
+            <div>
+                <label for="category">Date of publish</label>
+                <input type="text" data-ng-model="Article.datePub" />
+            </div>
+
+            <div>
+                <label for="price">Description</label>
+                <input type="text" data-ng-model="Article.description" />
+            </div>
+
+            <div>
+                <label for="price">Number of comments</label>
+                <input type="text" data-ng-model="Article.comments" />
+            </div>
+
+            <div>
+                <label for="price">Topic</label>
+                <input type="text" data-ng-model="Article.topic" />
+            </div>
+            <br />
+            <div>
+                <button data-ng-click="save()">Save</button>
+                <button data-ng-click="clear()">Clear</button>
+            </div>
+        </div>
+    </div>
+</div>

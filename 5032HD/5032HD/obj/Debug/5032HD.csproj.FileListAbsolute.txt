@@ -1,0 +1,180 @@
+C:\Users\super\Desktop\5032HD\5032HD\bin\ApplicationInsights.config
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\csc.exe
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\vbc.exe
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\VBCSCompiler.exe
+C:\Users\super\Desktop\5032HD\5032HD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\super\Desktop\5032HD\5032HD\bin\5032HD.dll.config
+C:\Users\super\Desktop\5032HD\5032HD\bin\5032HD.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\5032HD.pdb
+C:\Users\super\Desktop\5032HD\5032HD\bin\Antlr3.Runtime.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\EntityFramework.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\EntityFramework.SqlServer.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.Web.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.ApplicationInsights.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Newtonsoft.Json.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Owin.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Net.Http.Formatting.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Helpers.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Http.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Http.WebHost.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Mvc.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Optimization.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Razor.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.Razor.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\WebGrease.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.Web.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.ApplicationInsights.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Helpers.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Mvc.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Optimization.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Razor.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.WebPages.Razor.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Antlr3.Runtime.pdb
+C:\Users\super\Desktop\5032HD\5032HD\bin\Newtonsoft.Json.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Net.Http.Formatting.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Http.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\System.Web.Http.WebHost.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\EntityFramework.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\EntityFramework.SqlServer.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\super\Desktop\5032HD\5032HD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\super\Desktop\5032HD\5032HD\obj\Debug\5032HD.dll
+C:\Users\super\Desktop\5032HD\5032HD\obj\Debug\5032HD.pdb
+C:\Users\super\Desktop\5032HD\5032HD\bin\Rotativa.Core.dll
+C:\Users\super\Desktop\5032HD\5032HD\bin\Rotativa.MVC.dll
+C:\Users\super\Desktop\5032HD\5032HD\obj\Debug\5032HD.csprojResolveAssemblyReference.cache
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\ApplicationInsights.config
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\csc.exe
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\vbc.exe
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\VBCSCompiler.exe
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\5032HD.dll.config
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\5032HD.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\5032HD.pdb
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Antlr3.Runtime.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\EntityFramework.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\EntityFramework.SqlServer.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.Web.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.ApplicationInsights.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Newtonsoft.Json.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Owin.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Rotativa.Core.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Rotativa.MVC.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Net.Http.Formatting.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Helpers.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Http.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Http.WebHost.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Mvc.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Optimization.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Razor.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.Razor.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\WebGrease.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.Web.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.ApplicationInsights.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Helpers.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Mvc.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Optimization.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Razor.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.WebPages.Razor.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Antlr3.Runtime.pdb
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Newtonsoft.Json.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Net.Http.Formatting.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Http.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\System.Web.Http.WebHost.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\EntityFramework.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\EntityFramework.SqlServer.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\obj\Debug\5032HD.csprojResolveAssemblyReference.cache
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\obj\Debug\5032HD.dll
+C:\Users\super\Desktop\5032 Final version\5032HD\5032HD\obj\Debug\5032HD.pdb

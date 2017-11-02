@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Profile</h2>
+You can upload your profile photo here
+
+@using (Html.BeginForm("Profile", "Manage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <legend>Photo</legend>
+        <div class="editor-label">
+            <label for="profile">File Location:</label>
+        </div>
+        <div class="editor-field">
+            <input name="Profile" id="profile" type="file" />
+        </div>
+        <p>
+            <input type="submit" value="Upload" />
+        </p>
+    </fieldset>
+}
+

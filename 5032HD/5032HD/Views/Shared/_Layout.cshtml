@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <a class="navbar-brand" href="/Home/Index">
+            <img  src="~/Content/yao's logo.PNG" width="25" height="25" class="d-inline-block align-top" alt="Yao's' Badge">
+        </a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Yao's News", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            About
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Home/About">About US</a></li>
+                            <li><a href="/Home/OurHistory">Our history</a></li>
+                            <li><a href="/Home/FAQ">FAQ</a></li>
+                            <li><a href="/Home/Documentation">Documentation</a></li>
+                        </ul>
+                    </li>
+                    @if (this.User.IsInRole("Admin")) { 
+                    <li>@Html.ActionLink("Semd Email", "Contact", "Home")</li>
+                    }
+                    <li>@Html.ActionLink("Avatar", "Profile", "Manage")</li>
+                    @if (this.User.IsInRole("Admin") || this.User.IsInRole("Visitor"))
+                    {
+                    <li>@Html.ActionLink("Articles", "Index", "Articles")</li>
+                    }
+                    else
+                    {
+                    <li>@Html.ActionLink("My Articles", "IndexJournalist", "Articles")</li>
+                    }
+                    <li>@Html.ActionLink("Users", "Index", "AspNetUsers")</li>
+                    <li>@Html.ActionLink("Users' roles", "Index", "AspNetUserRoles")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Yao's News Institution</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/jquery-ui-1.12.1.js")
+    @Scripts.Render("~/Scripts/jquery-ui-1.12.1.min.js")
+    @Scripts.Render("~/Scripts/angular.js")
+    @Scripts.Render("~/Scripts/DataTables/jquery.dataTables.min.js")
+    @Scripts.Render("~/Scripts/datepub.js")
+    @Scripts.Render("~/Scripts/table.js")
+    @Scripts.Render("~/Scripts/ResetDialog.js")
+    @Scripts.Render("~/Scripts/Angularshow.js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
